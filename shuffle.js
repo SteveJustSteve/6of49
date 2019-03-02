@@ -1,6 +1,6 @@
 // Used like so
 arr=[];i=1;while(arr.push(i++)<50);
-for (j=0; j<10; j++) {
+for (j=0; j<6; j++) {
    
 
 	
