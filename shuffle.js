@@ -17,7 +17,6 @@ for (j=0; j<6; j++) {
 	}
 
 document.write("<br>");
-document.write("<br>");
 }
 
 
