@@ -9,6 +9,7 @@ for (j=0; j<6; j++) {
 document.write("<br>");
 document.write("Unsorted:");	
 	for (i=0; i<6; i++) { document.writeln("["+arr[i]+"]"+" ")}
+document.write("<br>");	
 document.write("Sorted:");	
 	for (i=0; i<6; i++) { document.writeln("["+draw[i]+"]"+" ")}
 document.write("<br>");
