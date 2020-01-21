@@ -4,7 +4,7 @@ arr=[];i=1;while(arr.push(i++)<49);
 for (j=0; j<6; j++) {
 	
 	arr = shuffle(arr);
-
+	draw = arr.slice(0,6);
 	for (i=0; i<6; i++) { document.writeln("["+arr[i]+"]"+" ")}
 
 document.write("<br>");
