@@ -6,7 +6,7 @@ for (j=0; j<1; j++) {
 	
 	arr = shuffle(arr);
 	var draw = arr.slice(0,6);
-	draw.sort();
+	draw.sort((a, b) => a - b);
 document.write("<br>");
 document.write("Unsorted:");	
 	for (i=0; i<6; i++) { document.writeln("["+arr[i]+"]"+" ")}
