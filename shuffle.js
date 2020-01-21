@@ -1,11 +1,11 @@
 // array creation with integers from 1 to 49
 var arr=[];i=1;while(arr.push(i++)<49);
-var draw=[0,0,0,0,0,0];
+
 
 for (j=0; j<6; j++) {
 	
 	arr = shuffle(arr);
-	draw = arr.slice(0,6);
+	var draw = arr.slice(0,6);
 	draw.sort();
 document.write("<br>");
 document.write("Unsorted:");	
