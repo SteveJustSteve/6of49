@@ -1,6 +1,6 @@
 // array creation with integers from 1 to 49
 var arr=[];i=1;while(arr.push(i++)<49);
-var draw=[];
+var draw=[0,0,0,0,0,0];
 
 for (j=0; j<6; j++) {
 	
