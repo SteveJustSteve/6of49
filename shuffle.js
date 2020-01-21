@@ -2,7 +2,7 @@
 var arr=[];i=1;while(arr.push(i++)<49);
 
 
-for (j=0; j<6; j++) {
+for (j=0; j<1; j++) {
 	
 	arr = shuffle(arr);
 	var draw = arr.slice(0,6);
