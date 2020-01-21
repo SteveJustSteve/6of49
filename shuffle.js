@@ -1,5 +1,6 @@
 // array creation with integers from 1 to 49
 arr=[];i=1;while(arr.push(i++)<49);
+draw[];
 
 for (j=0; j<6; j++) {
 	
